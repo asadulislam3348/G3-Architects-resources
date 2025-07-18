@@ -1,99 +1,75 @@
+/* font style */
 
-.work-sans-font {
+
+.work-sans-normal {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight:400px;
   font-style: normal;
 }
 
-/* shared style */
-.display-flex{
-    display: flex;
-
+body{
+    max-width: 1920px;
 }
-
-/* sared style in navbar */
+/* navbar style */
 .navbar{
-
-  justify-content: space-between;
-  align-items: center;
-  padding:5px 60px;
+display: flex;
+justify-content: space-between;
+padding: 50px;
+margin: 10px;
 
 }
 
-.btn-primary{
-    background-color: #FF900E;
-    color: #ffff;
+.nav-lists ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.nav-lists a{
+    text-decoration: none;
+    color: rgba(66, 66, 66, 1);
+
+}
+/* banner style */
+
+.banner{
+text-align: center;
+}
+.banner-contaen{
+
+}
+.banner-text-contaen{
+
+}
+.banner-header{
+   font-weight: bold; 
+   font-size: 4rem;
+}
+.banner-description{
+    font-size: 1rem; 
+    color: rgba(114, 114, 114, 1);
+}
+.banner-btn{
+    width: 11.25rem;
+    height: 4rem;
+    background-color: rgba(255, 144, 14, 1);
     padding: 20px 25px;
-    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400px;
     font-size: 1.25rem;
     border-radius: 8px;
+    margin-bottom: 50px;
+    margin-top: 32px;
     border: none;
-    /* margin-bottom: 50px; */
 }
 
-.brand-name{
-    font-weight: 700px;
-    font-size: 2.8rem;
-}
-/* dark 01 */
-.text-tital{
-color: rgb(19 19 19);
-
-}
-/* dark 02 */
-.nav-footer{
-    color: rgb(66, 66, 66);
-}
-/* dark 03 */
-.text-paragraph{
-color: rgb(114 114 114);
-}
-/* background-colour */
-.bg-light{
- background-color:rgba(255, 144, 14, 0.1);
-}
-.nav-link{
-text-decoration: none;
-
-}
-.nav-itam{
-    list-style: none;
-    margin-right: 35px;
-font-size: 18px;
-font-weight: 500;
-line-height: 26px;
-
-}
-
-.nav, .bannar{
-    max-width: 1920px;
-    margin: 0 auto;
-
-}
-/* bannaer related style */
-.banner-content{
-    max-width: 860px;
-    margin: 0 auto;
-    text-align: center;
-    margin: 50px;
-}
-.banner-tital{
-    font-weight: bold;
-    font-size: 4rem;
-}
 .banner-image{
-    max-width: 100%;
+    max-width: 1440px;
+    max-height: 700px;
+    margin-bottom: 50px;
 }
-
-
-/* responsive media query */
-@media screen and (max-width:576px) {
-    .navbar, .nav-links{
-        flex-direction: column;
-    }
+.background{
+ background-color: rgba(235, 129, 8, 0.498) ; 
 }
-
 
 
 
